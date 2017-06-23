@@ -5,14 +5,29 @@ sans-serif;
 $body-font: 'Tenor Sans',
 sans-serif;
 // colors
-$green: #06673D;
-$orange: #BA3D0B;
+$green: #06673D; //6, 103, 61
+$orange: #BA3D0B; //186, 61, 11
 // defaults
 $default-padding: 1rem;
 .flex {
     display: flex;
 }
 
+@mixin background-props {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin no-space {
+    margin: 0;
+    padding: 0;
+}
+
+$gradient: linear-gradient(rgba(6, 103, 61, 0.40), rgba(6, 103, 61, 0.40));
+//$gradient-light: linear-gradient(rgba($primary-tint, 0.50), rgba($primary-tint, 0.50));
+//background: $gradient-light, url("../images/hero_large.jpg");
+//            @include background-props;
 body {
     font-family: $body-font;
     font-size: 1rem;
@@ -35,12 +50,15 @@ h4,
 h5,
 h6 {
     font-family: $heading-font;
+    @include no-space;
 }
 
+p {
+  @include no-space;
+}
 ul.unstyled-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    @include no-space;
 }
 
 a:link,
@@ -62,7 +80,16 @@ a.cta-btn {
 }
 
 a[href="index.html"] {
-  border-bottom: none;
+    border-bottom: none;
+}
+
+.wrapper {
+    max-width: 1700px;
+}
+
+.panel {
+    min-height: 80vh;
+    padding: $default-padding;
 }
 
 header.flex {
@@ -71,7 +98,7 @@ header.flex {
         flex: 1 1 50%;
     }
     img.logo {
-        width: 300px;
+        width: 400px;
     }
     nav {
         align-items: center;
@@ -84,7 +111,7 @@ header.flex {
                     color: #000;
                     &:hover,
                     &:focus {
-                      color: $orange;
+                        color: $orange;
                     }
                 }
                 a.cta-btn {
@@ -92,10 +119,34 @@ header.flex {
                     color: #fff;
                     &:hover,
                     &:focus {
-                      background-color: $orange;
+                        background-color: $orange;
                     }
                 }
             }
         }
+    }
+}
+
+main {
+    section#panel1.flex {
+        background: $gradient, url("../images/panel-1.jpeg");
+        @include background-props;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        div {
+            text-align: center;
+            width: 1000px;
+            h1 {
+                font-size: 5.5rem;
+            }
+            p {
+              font-size: 3rem;
+              margin-top: $default-padding;
+            }
+        }
+    }
+    section#searchconnectgrow.flex {
+      background-color: $green;
     }
 }

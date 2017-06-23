@@ -246,25 +246,30 @@ table {
   display: flex;
 }
 
-/* line 31, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 28, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+img.logo {
+  width: 400px;
+}
+
+/* line 32, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 body {
   font-family: "Tenor Sans", sans-serif;
   font-size: 1rem;
 }
 
-/* line 36, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 37, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 a:link,
 a:visited {
   color: #06673D;
 }
 
-/* line 41, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 42, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 a:focus,
 a:hover {
   color: #BA3D0B;
 }
 
-/* line 46, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 47, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 h1,
 h2,
 h3,
@@ -276,33 +281,33 @@ h6 {
   padding: 0;
 }
 
-/* line 56, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 57, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 p {
   margin: 0;
   padding: 0;
 }
 
-/* line 60, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 61, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 ul.unstyled-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 65, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 66, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 a:link,
 a:visited {
   text-decoration: none;
 }
 
-/* line 70, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 71, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 a:focus,
 a:hover {
   border-bottom: 1.5px solid #BA3D0B;
   color: #BA3D0B;
 }
 
-/* line 76, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 77, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 a.cta-btn {
   background-color: #06673D;
   color: #fff;
@@ -310,71 +315,66 @@ a.cta-btn {
   padding: 0.5rem 1rem;
 }
 
-/* line 83, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 84, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 a[href="index.html"] {
   border-bottom: none;
 }
 
-/* line 87, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 88, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 .wrapper {
   max-width: 1700px;
 }
 
-/* line 91, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 92, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 .panel {
   min-height: 80vh;
   padding: 1rem;
 }
 
-/* line 96, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 97, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 header.flex {
   padding: 1rem;
 }
 
-/* line 98, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 99, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 header.flex > * {
   flex: 1 1 50%;
 }
 
-/* line 101, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
-header.flex img.logo {
-  width: 400px;
-}
-
-/* line 104, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 102, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 header.flex nav {
   align-items: center;
 }
 
-/* line 107, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 105, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 header.flex nav ul li {
   display: inline-block;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
-/* line 110, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 108, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 header.flex nav ul li a {
   font-size: 1.25rem;
   color: #000;
 }
 
-/* line 113, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 111, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 header.flex nav ul li a:hover, header.flex nav ul li a:focus {
   color: #BA3D0B;
 }
 
-/* line 118, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 116, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 header.flex nav ul li a.cta-btn {
   border-bottom: 1.5px solid transparent;
   color: #fff;
 }
 
-/* line 121, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 119, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 header.flex nav ul li a.cta-btn:hover, header.flex nav ul li a.cta-btn:focus {
   background-color: #BA3D0B;
 }
 
-/* line 132, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 130, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#panel1.flex {
   background: linear-gradient(rgba(6, 103, 61, 0.4), rgba(6, 103, 61, 0.4)), url("../images/panel-1.jpeg");
   background-repeat: no-repeat;
@@ -385,36 +385,37 @@ main section#panel1.flex {
   align-items: center;
 }
 
-/* line 138, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 136, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#panel1.flex div {
   text-align: center;
   width: 1000px;
 }
 
-/* line 141, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 139, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#panel1.flex div h1 {
   font-size: 5.5rem;
 }
 
-/* line 144, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 142, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#panel1.flex div p {
   font-size: 3rem;
   margin-top: 1rem;
 }
 
-/* line 150, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 148, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#searchconnectgrow {
   background-color: #06673D;
   padding: 3rem;
+  padding-bottom: 4rem;
 }
 
-/* line 153, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 152, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#searchconnectgrow h2 {
   font-size: 3rem;
   color: #fff;
 }
 
-/* line 158, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 157, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#searchconnectgrow > div#icon-boxes div.icon-div.flex {
   margin-top: 1rem;
   flex: 1 1 20%;
@@ -422,29 +423,84 @@ main section#searchconnectgrow > div#icon-boxes div.icon-div.flex {
   background-color: #fff;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
-/* line 166, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 165, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#searchconnectgrow > div#icon-boxes div.icon-div.flex img {
   width: 100%;
   max-width: 200px;
 }
 
-/* line 170, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 169, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#searchconnectgrow > div#icon-boxes div.icon-div.flex h3 {
   font-size: 2rem;
 }
 
-/* line 173, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 172, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#searchconnectgrow > div#icon-boxes div.icon-div.flex p {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
 
-/* line 178, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+/* line 177, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
 main section#searchconnectgrow > div#icon-boxes > div.icon-div:last-of-type {
   margin-right: 0;
+}
+
+/* line 182, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+main section#signup {
+  padding: 3rem;
+  background: linear-gradient(rgba(6, 103, 61, 0.4), rgba(6, 103, 61, 0.4)), url("../images/panel-3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  align-items: center;
+}
+
+/* line 188, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+main section#signup div {
+  width: 1200px;
+}
+
+/* line 190, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+main section#signup div h2 {
+  font-size: 5rem;
+}
+
+/* line 193, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+main section#signup div p {
+  font-size: 3rem;
+}
+
+/* line 196, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+main section#signup div form {
+  margin-top: 2rem;
+}
+
+/* line 198, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+main section#signup div form input {
+  padding: 1rem;
+}
+
+/* line 201, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+main section#signup div form input[type="submit"] {
+  background-color: #BA3D0B;
+  color: #fff;
+}
+
+/* line 210, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+footer.flex {
+  padding: 1rem;
+  background-color: #06673D;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 215, /Applications/MAMP/htdocs/startup/LettuceGrowth/scss/main.scss */
+footer.flex img.logo {
+  width: 250px;
 }
 
 /*# sourceMappingURL=../css/main.map */
